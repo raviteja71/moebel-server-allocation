@@ -1,0 +1,21 @@
+{
+    "name": "raviteja/moebel-server-allocation",
+    "description": "This library calculates the required number of servers based on collection of VM's",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "phpunit/phpunit": ">=6"
+    },
+    "authors": [
+        {
+            "name": "Ravi Teja",
+            "email": "raviteja.muchintala@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Moebel\\": "src/"
+        }
+    }
+}
